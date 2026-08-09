@@ -12,9 +12,8 @@ This repository documents my work in systems analysis and design and demonstrate
 |---|---|
 | [Business Requirements](docs/business-requirements.md) | Functional and nonfunctional requirements, security, usability, platform constraints, assumptions, and limitations |
 | [Modeling Analysis](docs/modeling-analysis.md) | Process modeling, object modeling, OOP concepts, and comparison of modeling approaches |
+| [UML Portfolio Models](docs/uml-models.md) | Use-case overview, class modeling, lesson-scheduling activity flow, sequence interactions, and requirements traceability |
 | [Project Schedule](docs/project-schedule.md) | Gantt planning, dependencies, milestones, sequencing, and concurrent work |
-
-Additional UML activity and sequence artifacts will be added as the CS 255 design work is completed.
 
 ## The Business Problem
 
@@ -92,6 +91,8 @@ This would make changes easier to manage and reduce the risk of building functio
 ## Academic Context
 
 This portfolio project was developed as part of my Computer Science coursework at Southern New Hampshire University. It is presented here to demonstrate my systems analysis and software design skills as I continue developing toward entry-level software engineering and software development opportunities.
+
+The rendered UML portfolio models are reconstructions derived from the completed DriverPass requirements and modeling analysis so that the repository can demonstrate traceability from requirements to design without misrepresenting them as original course-submission screenshots.
 
 ---
 
