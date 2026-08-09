@@ -6,6 +6,16 @@ DriverPass is a systems analysis and design project focused on planning a web-ba
 
 This repository documents my work in systems analysis and design and demonstrates how I approach a software problem before implementation begins.
 
+## Portfolio Artifacts
+
+| Artifact | What it demonstrates |
+|---|---|
+| [Business Requirements](docs/business-requirements.md) | Functional and nonfunctional requirements, security, usability, platform constraints, assumptions, and limitations |
+| [Modeling Analysis](docs/modeling-analysis.md) | Process modeling, object modeling, OOP concepts, and comparison of modeling approaches |
+| [Project Schedule](docs/project-schedule.md) | Gantt planning, dependencies, milestones, sequencing, and concurrent work |
+
+Additional UML activity and sequence artifacts will be added as the CS 255 design work is completed.
+
 ## The Business Problem
 
 DriverPass needed a system that could help students prepare for driving tests through online learning, practice exams, lesson scheduling, and access to training resources. The system also needed to support multiple user roles while giving staff the tools to manage appointments, packages, accounts, and business operations.
@@ -37,9 +47,7 @@ The proposed DriverPass platform includes requirements for:
 - Administrative reporting and operational support
 - Secure access to system data
 
-## Analysis & Design Artifacts
-
-The project uses multiple modeling techniques to represent the system from different perspectives.
+## Analysis & Design Approach
 
 ### Requirements Analysis
 Functional requirements describe what the system must do, while nonfunctional requirements address qualities such as security, performance, usability, reliability, and maintainability.
