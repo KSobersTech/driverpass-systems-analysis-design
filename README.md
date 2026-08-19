@@ -1,98 +1,57 @@
 # DriverPass Systems Analysis & Design
 
-## Project Overview
+This repository contains my CS 255 portfolio work for the DriverPass project. It shows how I moved from listening to a client's needs to documenting requirements and designing a system that a development team could build.
 
-DriverPass is a systems analysis and design project focused on planning a web-based driver training platform. The project began with stakeholder requirements and translated those needs into functional and nonfunctional requirements, process models, object models, UML diagrams, and system design decisions.
+## Required Portfolio Artifacts
 
-This repository documents my work in systems analysis and design and demonstrates how I approach a software problem before implementation begins.
-
-## Portfolio Artifacts
-
-| Artifact | What it demonstrates |
+| Course artifact | Description |
 |---|---|
-| [Business Requirements](docs/business-requirements.md) | Functional and nonfunctional requirements, security, usability, platform constraints, assumptions, and limitations |
-| [Modeling Analysis](docs/modeling-analysis.md) | Process modeling, object modeling, OOP concepts, and comparison of modeling approaches |
-| [UML Portfolio Models](docs/uml-models.md) | Use-case overview, class modeling, lesson-scheduling activity flow, sequence interactions, and requirements traceability |
-| [Project Schedule](docs/project-schedule.md) | Gantt planning, dependencies, milestones, sequencing, and concurrent work |
+| [Project One: Business Requirements Document](Keishmar_Sobers_DriverPass_Business_Requirements.docx) | The client requirements, business goals, functional and nonfunctional requirements, assumptions, limitations, security needs, and project schedule |
+| [Project Two: System Design Document](Keishmar_Sobers_CS255_Project_Two_System_Design.docx) | The system design, UML diagrams, technical requirements, security decisions, constraints, and requirement-to-design alignment |
 
-## The Business Problem
+## Portfolio Reflection
 
-DriverPass needed a system that could help students prepare for driving tests through online learning, practice exams, lesson scheduling, and access to training resources. The system also needed to support multiple user roles while giving staff the tools to manage appointments, packages, accounts, and business operations.
+### Briefly summarize the DriverPass project. Who was the client, and what type of system did they want?
 
-The challenge was not simply to describe an application. It was to understand what the client needed, identify system requirements, model how users and system components would interact, and create documentation that could guide future development.
+The client was DriverPass, a driver-training company owned by Liam. DriverPass wanted a web-based system that would give customers one place to register, purchase a training package, access online classes and practice tests, schedule driving lessons, and track their progress. The system also needed tools for the secretary, instructors, owner, and IT officer to manage appointments, accounts, reports, training content, and daily business operations.
 
-## My Role
+### What did you do particularly well?
 
-For this project, I worked from stakeholder interview material to analyze the proposed DriverPass system and develop design documentation. My work included:
+I think I did especially well at taking the information from the DriverPass interview and turning it into clear requirements and system models. I did not only list features. I connected the client's needs to user roles, scheduling rules, security controls, package-hour limits, and the way information should move through the system. My diagrams also show how different parts of DriverPass work together instead of treating every feature as a separate piece.
 
-- Identifying functional and nonfunctional requirements
-- Separating business needs from technical requirements
-- Analyzing user roles and system interactions
-- Developing UML and behavioral models
-- Considering security, usability, maintainability, and scalability
-- Translating stakeholder language into structured software requirements
-- Evaluating how design decisions support the needs of real users
+### If you could revise one part of your work, what would you improve?
 
-## System Capabilities
+If I could revise one part, I would spend more time validating the diagrams with people representing each DriverPass user role. A customer, secretary, instructor, owner, and IT officer may each notice different missing steps or confusing parts. I would use their feedback to simplify the diagrams where possible and make sure every important exception, such as a declined payment or unavailable lesson time, is represented clearly.
 
-The proposed DriverPass platform includes requirements for:
+### How did you interpret the user's needs and implement them into the system design? Why is that important?
 
-- User account creation and authentication
-- Role-based access for customers, instructors, secretaries, administrators, and IT personnel
-- Online practice tests and learning resources
-- Driving lesson scheduling and management
-- Package and appointment management
-- Progress tracking
-- Administrative reporting and operational support
-- Secure access to system data
+I interpreted the user's needs by looking beyond what each person asked for and thinking about why they needed it. For example, scheduling a lesson is not only choosing a date and time. The system must also check the customer's remaining package hours, instructor availability, vehicle availability, and possible conflicts before confirming the appointment. Considering the user's needs is important because a system can work technically and still fail if it does not support how people actually perform their jobs.
 
-## Analysis & Design Approach
+### How do you approach designing software? What strategies would you use in the future?
 
-### Requirements Analysis
-Functional requirements describe what the system must do, while nonfunctional requirements address qualities such as security, performance, usability, reliability, and maintainability.
+My approach is to understand the problem before deciding on the technology. I start by identifying the users, their goals, the business rules, and the information the system must protect. I then break larger processes into smaller workflows and use requirements, use cases, activity diagrams, sequence diagrams, and class diagrams to view the system from different angles. In future projects, I would continue using this process while adding more stakeholder reviews, prototypes, requirement traceability, accessibility checks, and early testing so problems can be corrected before they become expensive to fix.
 
-### UML & Object Modeling
-UML models help identify system objects, relationships, responsibilities, and interactions. These models provide a visual bridge between business requirements and eventual software implementation.
+## Supplemental Portfolio Material
 
-### Behavioral Modeling
-Activity and sequence diagrams are used to examine workflows and the order of interactions between users and system components. This helps expose missing steps, alternative paths, and dependencies before development begins.
-
-### Project Planning
-Scheduling and planning artifacts help organize development work, dependencies, and priorities identified during requirements gathering.
-
-## What I Learned
-
-One of the biggest lessons from DriverPass was that good software development starts before code is written. A technically functional application can still fail if the development team misunderstands the people who will use it.
-
-This project strengthened my ability to take stakeholder conversations and turn them into structured requirements and models. It also reinforced the importance of asking why a feature is needed instead of simply documenting what was requested.
-
-I also gained more experience thinking about software from several perspectives at once: the customer experience, business operations, system behavior, data, security, and future development needs.
-
-## How I Would Improve the Design
-
-If I continued developing DriverPass, I would validate the requirements with stakeholders through short iterative reviews before implementation. I would also prototype key user workflows, test accessibility and usability earlier, and maintain traceability between requirements, diagrams, user stories, and implemented features.
-
-This would make changes easier to manage and reduce the risk of building functionality that does not fully address the original business problem.
+- [Business Requirements Summary](docs/business-requirements.md)
+- [Modeling Analysis](docs/modeling-analysis.md)
+- [UML Portfolio Models](docs/uml-models.md)
+- [Project Schedule](docs/project-schedule.md)
 
 ## Skills Demonstrated
 
-- Systems Analysis
-- Requirements Analysis
-- Software Design
-- Software Development Life Cycle (SDLC)
+- Systems analysis and requirements gathering
+- Functional and nonfunctional requirements
 - Unified Modeling Language (UML)
-- Object-Oriented Analysis and Design
-- Functional, Structural, and Behavioral Modeling
-- Stakeholder Analysis
-- Process Modeling
-- Technical Documentation
-- Problem Solving
+- Object-oriented analysis and design
+- Process, structural, and behavioral modeling
+- Security and role-based access planning
+- Technical documentation
+- Software Development Life Cycle planning
 
-## Academic Context
+## AI Use Acknowledgment
 
-This portfolio project was developed as part of my Computer Science coursework at Southern New Hampshire University. It is presented here to demonstrate my systems analysis and software design skills as I continue developing toward entry-level software engineering and software development opportunities.
-
-The rendered UML portfolio models are reconstructions derived from the completed DriverPass requirements and modeling analysis so that the repository can demonstrate traceability from requirements to design without misrepresenting them as original course-submission screenshots.
+ChatGPT (OpenAI, 2026) was used to help organize the assignment requirements, review the project documents, and revise the reflection for clarity. I reviewed the final content and verified it against the DriverPass interview, my completed course documents, and the portfolio instructions.
 
 ---
 
