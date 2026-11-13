@@ -2,6 +2,20 @@
 
 This repository contains my CS 255 portfolio work for the DriverPass project. It shows how I moved from listening to a client's needs to documenting requirements and designing a system that a development team could build.
 
+> **Scope:** DriverPass is an academic systems-analysis and design case study. The requirements, models, acceptance criteria, data model, and API surface describe a proposed system; they are not claims of a production deployment.
+
+## Recruiter Quick View
+
+| Area | Evidence in this repository |
+|---|---|
+| Requirements engineering | Functional and nonfunctional requirements derived from a stakeholder interview |
+| Traceability | Requirement-to-design-to-verification mapping with coverage and open decisions |
+| Behavioral modeling | Use-case, activity, and sequence views of the lesson-scheduling workflow |
+| Structural modeling | Object model plus a proposed relational data model |
+| Quality planning | Testable acceptance criteria for successful, invalid, and unauthorized scenarios |
+| Security design | Authentication, role-based authorization, audit history, secure payment boundaries, and least privilege |
+| Technical communication | Original course artifacts supported by concise, GitHub-rendered engineering documentation |
+
 ## Required Portfolio Artifacts
 
 | Course artifact | Description |
@@ -38,6 +52,14 @@ My approach is to understand the problem before deciding on the technology. I st
 - [UML Portfolio Models](docs/uml-models.md)
 - [Project Schedule](docs/project-schedule.md)
 
+## Engineering Extensions
+
+- **[Requirements Traceability Matrix](docs/requirements-traceability.md)** — connects prioritized requirements to design evidence, verification methods, and unresolved decisions.
+- **[Acceptance Criteria](docs/acceptance-criteria.md)** — defines testable outcomes for authentication, lesson scheduling, payments, progress, account administration, and reporting.
+- **[Data and API Design](docs/data-and-api-design.md)** — proposes the relational model, service boundaries, transaction rules, API surface, and security controls needed to implement the design.
+
+These extensions translate the course analysis into implementation-ready engineering guidance while preserving the distinction between **designed**, **proposed**, and **implemented** behavior.
+
 ## Skills Demonstrated
 
 - Systems analysis and requirements gathering
@@ -48,6 +70,10 @@ My approach is to understand the problem before deciding on the technology. I st
 - Security and role-based access planning
 - Technical documentation
 - Software Development Life Cycle planning
+- Requirements traceability
+- Acceptance-criteria design
+- Relational data modeling
+- API contract planning
 
 ## AI Use Acknowledgment
 
@@ -58,3 +84,4 @@ ChatGPT (OpenAI, 2026) was used to help organize the assignment requirements, re
 **Keishmar Sobers**  
 Computer Science Student | Software Engineering Concentration  
 Healthcare Technology | Software Development
+
