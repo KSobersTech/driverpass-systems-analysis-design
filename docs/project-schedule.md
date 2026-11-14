@@ -2,6 +2,8 @@
 
 This schedule is based on the DriverPass stakeholder interview and the final CS 255 business-requirements work.
 
+> **Planning-artifact note:** This is an illustrative schedule created for the academic DriverPass scenario. The dates show dependency analysis and sequencing; they do not represent a completed commercial implementation or production delivery.
+
 ```mermaid
 gantt
     title DriverPass Project Schedule
@@ -49,3 +51,4 @@ gantt
 Several tasks overlap because they can proceed concurrently. User-interface research does not depend on the use-case work, and the class diagram begins when the assigned resource becomes available. Implementation begins after customer approval, followed by database integration, business logic, testing, delivery, and final sign-off.
 
 The schedule demonstrates dependency analysis, sequencing, concurrency, milestone planning, and the relationship between systems-design work and implementation.
+
